@@ -1,4 +1,4 @@
-# EDS212_D4_EXPLORINGDATA
+# EDS212 Day 4 - EXPLORINGDATA
 
 ## Exploring Data - Introduction
 
