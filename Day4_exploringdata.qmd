@@ -1,0 +1,46 @@
+---
+title: "Day 4 Exploring Data"
+format: html
+editor: visual
+---
+
+# Exploratory Data Viz
+
+-   echo: don't show me the code only show me the output
+
+```{r}
+#| warning: false
+#| echo: false
+
+library(tidyverse)
+library(palmerpenguins)
+library(GGally)
+library(skimr)
+```
+
+-   Check out data a bit:
+
+    ```{r}
+    #| include: false
+
+
+    # Tell me the coloumn names
+
+    names(penguins)
+
+    # What are the dimension
+    dim(penguins)
+
+    # Can you show me the first six lines?
+    head(penguins)
+
+    # The last Six
+    tail(penguins)
+    ```
+
+```{r}
+
+#| echo: false
+
+2 + 10
+```
